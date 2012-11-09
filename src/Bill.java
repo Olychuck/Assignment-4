@@ -14,6 +14,7 @@ public class Bill {
 		price+=a.price;
 		}
 	public void printBill(){
+		System.out.println("Price: "+price);
 		for(Item i : arr){
 			System.out.println(i);
 		}
