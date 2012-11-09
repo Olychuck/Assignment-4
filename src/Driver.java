@@ -23,11 +23,14 @@ public class Driver {
 					r.b.addItem(m.arr.get(scan.nextInt()-1));
 					break;
 			case 3:
+					DecimalFormat df = new DecimalFormat("#0.00");
 				    r.b.printBill();
 				    System.out.println("1 to pay for bill 2 to wait");
 				    choice=scan.nextInt();
 				    if(choice==1){
-				    	
+				    	System.out.println("Cost is "+df.format(r.b.price)+". Please enter the amount you will pay");
+				    	r.w.tips+=scan.nextDouble()-r.b.price;
+				    	break;
 				    }
 				    else
 				    	break;
