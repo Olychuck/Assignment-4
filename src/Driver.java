@@ -12,10 +12,14 @@ public class Driver {
 		Scanner scan = new Scanner(System.in);
 		int choice=0;
 		while(true){
-			System.out.println("Enter 1 to see menu");
+			System.out.println("Enter 1 to see menu 2 to choose an item");
 			choice=scan.nextInt();
 			switch(choice){
 			case 1: printMenu(m);
+					break;
+					
+			case 2: System.out.println("Enter number of item:");
+					r.b.addItem(m.arr.get(scan.nextInt()-1));
 					break;
 			}
 		}
