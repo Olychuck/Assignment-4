@@ -25,7 +25,7 @@ public class Driver {
 				    r.b.printBill();
 				    System.out.println("1 to pay for bill 2 to wait");
 				    choice=scan.nextInt();
-				    if(choice==1){
+				    if(choice==1){ 
 				    	
 				    }
 				    else

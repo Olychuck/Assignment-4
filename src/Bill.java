@@ -14,7 +14,7 @@ public class Bill {
 		price+=a.price;
 		}
 	public void printBill(){
-		DecimalFormat df = new DecimalFormat("#0.00");
+		DecimalFormat df = new DecimalFormat("#0.00"); 
 		for(Item i : arr){
 			System.out.println(i);
 		}
