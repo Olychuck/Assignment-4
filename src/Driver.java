@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -25,12 +26,12 @@ public class Driver {
 				    r.b.printBill();
 				    System.out.println("1 to pay for bill 2 to wait");
 				    choice=scan.nextInt();
-				    if(choice==1){  
+				    if(choice==1){
 				    	
 				    }
 				    else
 				    	break;
-				    
+		
 			}
 		}
 	}
@@ -69,6 +70,12 @@ public class Driver {
 					userMenu(arr.get(scan.nextInt()-1),m);
 				}
 				break;
+			case 3 :
+				
+				System.out.println("The waiters made the following:");
+				DecimalFormat df = new DecimalFormat("#0.00");
+				System.out.println(qu.getFirst().name+" made "+df.format(qu.getFirst().tips));
+				System.out.println(qu.getLast().name+" made "+df.format(qu.getLast().tips));
 			}
 		}
 		
