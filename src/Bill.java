@@ -1,7 +1,7 @@
+import java.text.DecimalFormat;
 import java.util.ArrayList;
-
-
 public class Bill {
+	final double HST = 1.12;
 	ArrayList<Item> arr;
 	double price;
 	public Bill(){
@@ -14,10 +14,12 @@ public class Bill {
 		price+=a.price;
 		}
 	public void printBill(){
-		System.out.println("Price: "+price);
+		DecimalFormat df = new DecimalFormat("#0.00");
 		for(Item i : arr){
 			System.out.println(i);
 		}
+		System.out.println("SubTotal: "+df.format(price));
+		System.out.println("Total: " +df.format(price*HST));
 	}
 	
 }
