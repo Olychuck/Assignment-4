@@ -13,6 +13,10 @@ public class Bill {
 		arr.add(a);
 		price+=a.price;
 		}
-	
+	public void printBill(){
+		for(Item i : arr){
+			System.out.println(i);
+		}
+	}
 	
 }

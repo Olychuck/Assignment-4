@@ -12,7 +12,7 @@ public class Driver {
 		Scanner scan = new Scanner(System.in);
 		int choice=0;
 		while(true){
-			System.out.println("Enter 1 to see menu 2 to choose an item");
+			System.out.println("Enter 1 to see menu 2 to choose an item 3 to view/pay Bill");
 			choice=scan.nextInt();
 			switch(choice){
 			case 1: printMenu(m);
@@ -21,6 +21,16 @@ public class Driver {
 			case 2: System.out.println("Enter number of item:");
 					r.b.addItem(m.arr.get(scan.nextInt()-1));
 					break;
+			case 3:
+				    r.b.printBill();
+				    System.out.println("1 to pay for bill 2 to wait");
+				    choice=scan.nextInt();
+				    if(choice==1){
+				    	
+				    }
+				    else
+				    	break;
+				    
 			}
 		}
 	}
