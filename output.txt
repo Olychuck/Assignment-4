@@ -1,0 +1,149 @@
+1 to create new user 2 to select user 3 to quit
+1
+User 1 has been created and is being served by:Steve
+1 to create new user 2 to select user 3 to quit
+1
+User 2 has been created and is being served by:George
+1 to create new user 2 to select user 3 to quit
+1
+User 3 has been created and is being served by:Steve
+1 to create new user 2 to select user 3 to quit
+1
+User 4 has been created and is being served by:George
+1 to create new user 2 to select user 3 to quit
+1
+User 5 has been created and is being served by:Steve
+1 to create new user 2 to select user 3 to quit
+2
+Enter number of user(1-5)
+1
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+1
+The Menu
+Item 1:Chicken Parmesan: 17.99
+Item 2:Fettucini Alfredo: 15.99
+Item 3:Ceasar Salad: 10.99
+Item 4:Hamburger: 12.99
+Item 5:Personal Pizza: 14.99
+Item 6:Cheesecake: 17.99
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+1
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+3
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+4
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+5
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+3
+Chicken Parmesan: 17.99
+Ceasar Salad: 10.99
+Hamburger: 12.99
+Personal Pizza: 14.99
+SubTotal: 56.96
+Total: 63.80
+1 to pay for bill 2 to wait
+1
+Cost is 63.80. Please enter the amount you will pay
+64
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+4
+1 to create new user 2 to select user 3 to quit
+2
+Enter number of user(1-5)
+2
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+1
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+3
+Chicken Parmesan: 17.99
+SubTotal: 17.99
+Total: 20.15
+1 to pay for bill 2 to wait
+1
+Cost is 20.15. Please enter the amount you will pay
+30.15
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+4
+1 to create new user 2 to select user 3 to quit
+2
+Enter number of user(1-5)
+3
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+4
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+3
+Hamburger: 12.99
+SubTotal: 12.99
+Total: 14.55
+1 to pay for bill 2 to wait
+1
+Cost is 14.55. Please enter the amount you will pay
+14.75
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+4
+1 to create new user 2 to select user 3 to quit
+2
+Enter number of user(1-5)
+4
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+2
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+2
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+3
+Fettucini Alfredo: 15.99
+Fettucini Alfredo: 15.99
+SubTotal: 31.98
+Total: 35.82
+1 to pay for bill 2 to wait
+1
+Cost is 35.82. Please enter the amount you will pay
+45.82
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+4
+1 to create new user 2 to select user 3 to quit
+2
+Enter number of user(1-5)
+5
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+1
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+2
+Enter number of item:
+2
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+3
+Chicken Parmesan: 17.99
+Fettucini Alfredo: 15.99
+SubTotal: 33.98
+Total: 38.06
+1 to pay for bill 2 to wait
+1
+Cost is 38.06. Please enter the amount you will pay
+38.26
+Enter 1 to see menu 2 to choose an item 3 to view/pay Bill 4 to return
+4
+1 to create new user 2 to select user 3 to quit
+3
+The waiters made the following:
+George made 20.00
+Steve made 0.61
